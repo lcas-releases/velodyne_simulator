@@ -32,7 +32,7 @@
  *  POSSIBILITY OF SUCH DAMAGE.
  *********************************************************************/
 
-#include <velodyne_gazebo_plugins/GazeboRosVelodyneLaser.h>
+#include <velodyne_gazebo_plugins8/GazeboRosVelodyneLaser.h>
 
 #include <algorithm>
 #include <assert.h>

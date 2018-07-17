@@ -2,6 +2,17 @@
 Changelog for package velodyne_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+* Forked in LCAS to build a gazebo8-compatible binary. Package names had to be changed to prevent colisions
+
+
+
+1.0.8 (2018-07-17)
+------------------
+* Maintainer email changed
+* Package dependencies corrected
+* Renamed files to avoid collisions with the original repos
+* Contributors: mfernandezcarmona@lincoln.ac.uk
+
 1.0.7 (2018-07-03)
 ------------------
 * Added GPU support

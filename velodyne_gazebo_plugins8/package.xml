@@ -1,14 +1,15 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>velodyne_gazebo_plugins</name>
-  <version>1.0.7</version>
+  <name>velodyne_gazebo_plugins8</name>
+
+  <version>1.1.0</version>
   <description>
     Gazebo plugin to provide simulated data from Velodyne laser scanners.
   </description>
 
   <license>BSD</license>
   <author>Kevin Hallenbeck</author>
-  <maintainer email="khallenbeck@dataspeedinc.com">Kevin Hallenbeck</maintainer>
+  <maintainer email="mfernandezcarmona@lincoln.ac.uk">Manuel Fernandez-Carmona</maintainer>
   <url type="website">http://wiki.ros.org/velodyne_gazebo_plugins</url>
   <url type="repository">https://bitbucket.org/dataspeedinc/velodyne_simulator</url>
   <url type="bugtracker">https://bitbucket.org/dataspeedinc/velodyne_simulator/issues</url>
