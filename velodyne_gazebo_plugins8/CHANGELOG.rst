@@ -4,6 +4,12 @@ Changelog for package velodyne_gazebo_plugins
 
 * Forked in LCAS to build a gazebo8-compatible binary. Package names had to be changed to prevent colisions
 
+1.1.3 (2018-09-22)
+------------------
+
+1.1.2 (2018-09-22)
+------------------
+
 1.1.1 (2018-07-17)
 ------------------
 * removed gazebo8_ros from CMakelists
