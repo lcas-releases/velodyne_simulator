@@ -5,12 +5,12 @@
     
   <xacro:include filename="$(find velodyne_description8)/urdf/VLP-16-no-gazebo.urdf.xacro"/>
     <VLP-16-ng parent="${parent}" name="${name}">
-          <origin xyz="0.8 0 0.95" rpy="0 0 0" />
+    <xacro:insert_block name="origin" />
   </VLP-16-ng>      
    
   <xacro:include filename="$(find velodyne_description8)/urdf/VLP-16-gazebo.urdf.xacro"/>
   <VLP-16-g name="${name}" topic="${topic}" hz="${hz}" lasers="${lasers}" samples="${samples}" collision_range="${collision_range}" min_range="${min_range}" max_range="${max_range}" noise="${noise}" min_angle="${min_angle}" max_angle="${max_angle}" gpu="${gpu}">
-          <origin xyz="0.8 0 0.95" rpy="0 0 0" />
+    <xacro:insert_block name="origin" />
   </VLP-16-g>      
   
   </xacro:macro>
