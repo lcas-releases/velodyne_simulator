@@ -1,3 +1,29 @@
+## velodyne_simulator8 (kinetic) - 1.1.5-0
+
+The packages in the `velodyne_simulator8` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -y --no-web -t kinetic -r kinetic velodyne_simulator8` on `Wed, 10 Oct 2018 09:12:59 -0000`
+
+These packages were released:
+- `velodyne_description8`
+- `velodyne_gazebo_plugins8`
+- `velodyne_simulator8`
+
+Version of package(s) in repository `velodyne_simulator8`:
+
+- upstream repository: https://github.com/LCAS/velodyne_simulator.git
+- release repository: https://github.com/lcas-releases/velodyne_simulator.git
+- rosdistro version: `1.1.4-1`
+- old version: `1.1.4-1`
+- new version: `1.1.5-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.7`
+- catkin_pkg version: `0.4.8`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.9`
+- vcstools version: `0.1.40`
+
+
 ## velodyne_simulator8 (kinetic) - 1.1.4-1
 
 The packages in the `velodyne_simulator8` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -y -t kinetic -r kinetic velodyne_simulator8` on `Tue, 25 Sep 2018 08:04:34 -0000`
