@@ -2,7 +2,7 @@
 <package format="2">
 
   <name>velodyne_simulator8</name>
-  <version>1.1.4</version>
+  <version>1.1.5</version>
   <description>
     Metapackage allowing easy installation of Velodyne simulation components.
   </description>

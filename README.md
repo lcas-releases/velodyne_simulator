@@ -10,8 +10,8 @@ URDF description and Gazebo plugins to simulate Velodyne laser scanners
 * Simulated Gaussian noise
 * GPU acceleration ([with a modern Gazebo build](gazebo_upgrade.md))
 * Supported models:
-    * [VLP-16](velodyne_description/urdf/VLP-16.urdf.xacro)
-    * [HDL-32E](velodyne_description/urdf/HDL-32E.urdf.xacro)
+    * [VLP-16](velodyne_description8/urdf/VLP-16.urdf.xacro)
+    * [HDL-32E](velodyne_description8/urdf/HDL-32E.urdf.xacro)
     * Pull requests for other models are welcome
 
 # Parameters
@@ -34,15 +34,15 @@ URDF description and Gazebo plugins to simulate Velodyne laser scanners
 * With the default Gazebo version shipped with ROS, ranges are incorrect when accelerated with the GPU option ([issue](https://bitbucket.org/osrf/gazebo/issues/946/),[image](img/gpu.png))
     * Solution: Upgrade to a [modern Gazebo version](gazebo_upgrade.md)
 * Gazebo cannot maintain 10Hz with large pointclouds
-    * Solution: User can reduce number of points (samples) or frequency (hz) in the urdf parameters, see [example.urdf.xacro](velodyne_description/urdf/example.urdf.xacro)
+    * Solution: User can reduce number of points (samples) or frequency (hz) in the urdf parameters, see [example.urdf.xacro](velodyne_description8/urdf/example.urdf.xacro)
 * Gazebo crashes when updating HDL-32E sensors with default number of points. "Took over 1.0 seconds to update a sensor."
     * Solution: User can reduce number of points in urdf (same as above)
 * Gazebo versions in indigo and jade have different z orientations
     * Solution: Maintain separate branches for urdf changes (gazebo2 and master)
 
 # Example Gazebo Robot
-```roslaunch velodyne_description example.launch```
+```roslaunch velodyne_description8 example.launch```
 
 # Example Gazebo Robot (with GPU)
-```roslaunch velodyne_description example.launch gpu:=true```
+```roslaunch velodyne_description8 example.launch gpu:=true```
 
